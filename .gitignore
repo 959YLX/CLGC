@@ -1,0 +1,3 @@
+# for ylx's Windows10 WSL ignore
+.vscode/*
+build/*
