@@ -21,7 +21,7 @@ mkdir -p /root/src
 RUN apt-get install -y libboost-dev zlib1g-dev && \
 cd /mnt/dependencies && \
 wget https://github.com/chenshuo/muduo/archive/v2.0.2.tar.gz && \
-tar -zxf v2.0.2.tar.gz && cd muduo-2.0.2/ && ./build install
+tar -zxf v2.0.2.tar.gz && cd muduo-2.0.2/ && ./build.sh install
 
 WORKDIR /root/src
 
